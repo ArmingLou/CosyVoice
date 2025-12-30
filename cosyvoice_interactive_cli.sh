@@ -212,7 +212,7 @@ generate_output_path() {
         local name="${filename%.*}"
         
         # 生成输出路径
-        echo "$output_dir/${name}_${suffix}.wav"
+        echo "$output_dir/${name}_${suffix}.${extension}"
     fi
 }
 
